@@ -1,0 +1,57 @@
+
+
+
+.sec-prod-serv {
+    padding 60px 20px;
+    background-color:aliceblue;
+}
+.div-gral-prod-serv{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+gap: 40px;
+}
+
+.div-prod-serv-text {
+    width: 50%;
+}
+
+.div-prod-serv-img {
+    width: 60%;
+}
+
+
+.div-prod-serv-text h2{
+    color: #0cbd06;;
+}
+.div-prod-serv-text p{
+    color: black;
+    line-height: 1.5;
+}
+.div-prod-serv-img img{
+    border-radius: 10px;
+}
+
+.sec-prod-dig{
+    padding 30px 20px;
+    background-color: #0cbd06;; 
+    width: 100%;
+}
+.div-gral-prod-dig{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+gap: 40px;
+}
+.div-prod-dig-text h2{
+    color: blanchedalmond;
+}
+.div-prod-dig-text {
+width: 50%;
+}
+
+.div-prod-dig-video{
+width: 50%;
+}

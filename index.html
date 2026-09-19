@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>INTERBANK</title>
+    <link rel="stylesheet" href="he_cabecera.css" />
+    <link rel="stylesheet" href="he_seccion.css" />
+    <link rel="stylesheet" href="he_formulario.css" />
+    <link rel="stylesheet" href="pie.css" />
+    <link rel="stylesheet" href="hamburguesa.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  <body>
+    <nav class="top-header">
+      <a href="" class="logo">
+        <img height="80px " width="80px" src="logo/interbank.png" alt="logo" />
+      </a>
+                     <!-- BOTÓN HAMBURGUESA -->
+   <button class="menu-toggle" aria-label="Abrir menú">
+    &#9776;
+    <!-- Ícono de hamburguesa -->
+   </button>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Productos </a></li>
+
+        <li>
+          <a href="">Promociones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjetas </a></li>
+            <li><a href="">Cuentas </a></li>
+            <li><a href="">Envio y Recepcion de Dinero </a></li>
+            <li><a href="">Prestamos </a></li>
+          </ul>
+        </li>
+        <li><a href="">Zona digital</a></li>
+        <li><a href="">Ayuda y contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="sec-prod-serv">
+      <div class="div-gral-prod-serv">
+         <div class="div-prod-serv-text">
+            <h2> ES TIEMPO DE SER INTERBANK</h2>
+            <p>En Interbank trabajamos para ofrecer soluciones
+               financieras innovadoras que acompañen a nuestros 
+               clientes en cada etapa de su vida. A través de nuestros 
+               canales digitales, productos de ahorro, créditos e inversiones, 
+               brindamos una experiencia rápida, segura y confiable. Además, 
+               impulsamos iniciativas de sostenibilidad y educación financiera 
+               que contribuyen al desarrollo de las personas y del país.
+            </p>
+          </div>
+          <div class="div-prod-serv-img">
+            <img src="interbank/interbank.png" alt="imagen"/>
+          </div>
+        </div>
+    </section>
+    <section class="sec-prod-dig">
+      <div class="div-gral-prod-dig">
+        <div clas="div-prod-dig-text">
+         <h2> CUENTA CON NOSOTROS PARA LO QUE NECESITES </h2>
+          <p>
+            
+            En Interbank creemos que cada ahorro es el primer paso  
+            para cumplir grandes metas. Por eso, impulsamos el hábito 
+            de ahorrar de manera constante, brindando a nuestros clientes 
+            la oportunidad de acercarse a su sueño de tener un departamento 
+            propio y construir un mejor futuro para ellos y sus familias.
+
+          </p>
+        </div>
+        <div class="div-prod-dig-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/YWaXQsrs9p4?si=O1uvdzAdO_4XKyx4" 
+           title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+        </div>
+      </section>
+
+<section class="seccion-fomulario">
+  <div class = "div-geral-formulario">
+    <h2> subtitulo </h2>
+    <p> agrega tus datos</p>
+    <form class="formulario">
+      
+      <!--caja de texto input;text-->
+      <div class="campo">
+        <label for="nombres"> Nombres Completos:</label> 
+        <input type="text" id="nombres" name="nombres" placeholder="ingrese sus nomes completos">
+      </div>
+
+      <!--lista desplegable/option-->
+      <div class="campo">
+        <label for="ciudad"> Ciudad:</label> 
+        <select id="ciudad" name="ciudad">
+          <option value="seleccione una ciudad">seleccione una ciudad </option>
+          <option value="lima"> Lima </option>
+          <option value="cuzco"> Cuzco</option>
+          <option value="tumbes"> Tumbes</option>
+          <option value="arequipa"> Arequipa</option>
+        </select>
+      </div>
+      <!--checkbox-->
+      <div class="campo"> 
+        <label>Intereses</label>
+        <ul class ="lista-checkbox"> 
+          <li> <label> <input type="checkbox" name ="intereses" value="intereses"> creditos </label></li>
+          <li> <label> <input type="checkbox" name ="intereses" value="intereses"> prestams </label></li>
+          <li> <label> <input type="checkbox" name ="intereses" value="intereses"> donaciones </label></li>
+          <li> <label> <input type="checkbox" name ="intereses" value="intereses"> efectivo </label></li>
+        </ul>
+      </div>
+      <!--radio -->
+       <div class="campo"> 
+        <label for="sexo">Sexo</label>
+        <ul class="lista-checkbox">
+          <li> <label> <input type="radio" name ="sexo" value="F"> femenino </label></li>
+          <li> <label> <input type="radio" name ="sexo" value="M"> Mascuino </label></li>
+          <li> <label> <input type="radio" name ="sexo" value="NE"> No Especifico</label></li>
+        </ul>
+       </div>
+       <!--boton-->
+       <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+<!-- PIE DE PAGINA -->
+
+<section id="footer">
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Logo y nombre de sitio -->
+      <div class="footer-brand">
+        <img src="logo/logointerbank.jpg" alt="Logo" class="footer-logo" />
+        <p>INTERBANK</p>
+        <small>© 2026 Todos los derechos reservados</small>
+      </div>
+
+      <!-- Enlaces legales -->
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <a href="/documentos/4852903-politica-de-privacidad.pdf" target="_blank">Política de Privacidad</a>
+
+        <!-- Dentro de href llama a un documento pdf con la poltica-->
+        <a href="/documentos/Terminos-y-condiciones.pdf" target="_blank">Términos y Condiciones</a>
+
+        <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+        <a href="/documentos/29733.pdf" target="_blank">Protección de Datos</a>
+      </div>
+
+      <!-- Redes sociales con íconos personalizados -->
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <a href="#"
+          ><img
+            src="/redes-sociales/Telegram.png"
+            alt="Telegram"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="/redes-sociales/instagram.png"
+            alt="Instagram"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+            alt="LinkedIn"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+            alt="Twitter"
+            class="social-icon"
+        /></a>
+      </div>
+    </div>
+  </footer>
+</section>
+  </body>
+  <script src="menu_toggle.js"></script>
+</html>
